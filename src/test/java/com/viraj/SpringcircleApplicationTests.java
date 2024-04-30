@@ -18,7 +18,7 @@ class SpringcircleApplicationTests {
 	}
 	@Test
 	public void test2(){
-		assertEquals(4, 1+2);
+		assertEquals(4, 2+2);
 	}
 
 }
