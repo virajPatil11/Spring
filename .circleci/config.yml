@@ -10,8 +10,8 @@ jobs:
       - checkout
       # Replace this with a real test runner invocation
       - run:
-          name: Run tests
-          command: echo 'replace me with real tests!' && false
+          name: Run Tests
+          command: ./mvnw test
   build:
     docker:
       - image: cimg/base:stable
@@ -30,7 +30,8 @@ jobs:
       # Replace this with steps to deploy to users
       - run:
           name: deploy
-          command: '#e.g. ./deploy.sh'
+#          command: '#e.g. ./deploy.sh'
+
 workflows:
   example:
     jobs:
